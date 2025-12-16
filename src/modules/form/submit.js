@@ -4,7 +4,7 @@ const form = document.querySelector('form')
 const clientName = document.getElementById('client')
 const selectedDate = document.getElementById('date')
 
-const inputToday = dayjs(new Date()).add(1, 'day').format('YYYY-MM-DD')
+const inputToday = dayjs(new Date()).format('YYYY-MM-DD')
 
 // Carregra a data atual no campo de data
 selectedDate.value = inputToday
