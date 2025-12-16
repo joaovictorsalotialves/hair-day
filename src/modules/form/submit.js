@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 const form = document.querySelector('form')
 const selectDate = document.getElementById('date')
 
-const inputToday = dayjs().format('DD/MM/YYYY')
+const inputToday = dayjs(new Date()).format('YYYY-MM-DD')
 
 // Carregra a data atual no campo de data
 selectDate.value = inputToday
